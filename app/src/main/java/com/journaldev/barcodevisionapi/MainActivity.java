@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, PictureBarcodeActivity.class));
                 break;
             case R.id.btnScanBarcode:
+
                 Log.e("github","https://github.com/usharani25/BarcodeVisionAPI");
                 startActivity(new Intent(MainActivity.this, ScannedBarcodeActivity.class));
                 break;
